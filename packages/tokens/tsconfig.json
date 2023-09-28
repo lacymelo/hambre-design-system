@@ -1,0 +1,6 @@
+{
+  "extends": "@hambre-ui/ts-config/base.json",
+  "include": [
+    "src"
+  ],
+}
