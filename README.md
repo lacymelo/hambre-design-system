@@ -14,14 +14,14 @@
 
 ---
 
-- [ ] Text
-- [ ] Heading
-- [ ] Box
-- [ ] Button
-- [ ] TextInput
-- [ ] TextArea
+- [X] Text
+- [X] Heading
+- [X] Box
+- [X] Button
+- [X] TextInput
+- [X] TextArea
 - [ ] Checkbox
-- [ ] Avatar
+- [X] Avatar
 - [ ] MultiStep
 
 
@@ -88,7 +88,7 @@
  - [X] npm i react react-dom
 
 ```bash
-# 🛠️ Permite fazer cálculos com  cores packages/docs
+# 🛠️ Permite fazer cálculos com cores em packages/docs
 ```
  - [X] npm i polished
 
@@ -96,6 +96,26 @@
 # 🛠️ Biblioteca Permite executar os scripts em todos os pacotes ao mesmo tempo, acelerando o build
 ```
  - [X] npm i turbo@latest -D
+
+```bash
+# 🛠️ Biblioteca para carregar imagem de avatar em packages/react
+```
+ - [X] npm i @radix-ui/react-avatar
+
+```bash
+# 🛠️ Biblioteca de ícones em packages/react
+```
+ - [X] npm i phosphor-react
+
+```bash
+# 🛠️ Biblioteca de ícones em packages/docs
+```
+ - [X] npm i phosphor-react
+
+ ```bash
+# 🛠️ Biblioteca para componente de checkbox em packages/react
+```
+ - [X] npm i @radix-ui/react-checkbox
 
 ## :man_student: Autores
 

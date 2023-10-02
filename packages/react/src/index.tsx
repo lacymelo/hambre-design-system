@@ -1,31 +1,9 @@
-import { ComponentProps } from 'react'
-import { styled } from './styles'
-
-export const Button = styled('button', {
-    fontFamily: '$default',
-    backgroundColor: '$hambre300',
-    borderRadius: '$sm',
-    fontSize: '$sm',
-    padding: '$4 $8',
-    border: 0,
-    fontWeight: 'bold',
-
-    variants: {
-        size: {
-            small: {
-                fontSize: 14,
-                padding: '$3 $6'
-            },
-            big: {
-                fontSize: '$md',
-                padding: '$5 $8'
-            }
-        }
-    },
-
-    defaultVariants: {
-        size: 'small'
-    }
-})
-
-export type ButtonProps = ComponentProps<typeof Button>
+export * from './components/Box'
+export * from './components/Text'
+export * from './components/Heading'
+export * from './components/Avatar'
+export * from './components/Button'
+export * from './components/TextInput'
+export * from './components/TextArea'
+export * from './components/Checkbox'
+export * from './components/MultiStep'

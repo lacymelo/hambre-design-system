@@ -26,10 +26,11 @@
     "vite": "^3.2.7"
   },
   "dependencies": {
-    "@hambre-ui/react": "*",
-    "@hambre-ui/ts-config": "*",
-    "@hambre-ui/tokens": "*",
     "@hambre-ui/eslint-config": "*",
+    "@hambre-ui/react": "*",
+    "@hambre-ui/tokens": "*",
+    "@hambre-ui/ts-config": "*",
+    "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
