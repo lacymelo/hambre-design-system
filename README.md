@@ -117,6 +117,16 @@
 ```
  - [X] npm i @radix-ui/react-checkbox
 
+ ```bash
+# 🛠️ Biblioteca para acessibilidade em packages/docs
+```
+ - [X] npm i @storybook/addon-a11y
+
+ ```bash
+# 🛠️ Biblioteca para utilizar o toast em packages/react
+```
+ - [X] npm i @radix-ui/react-toast
+
 ## :man_student: Autores
 
 ---

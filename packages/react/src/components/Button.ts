@@ -82,10 +82,10 @@ export const Button = styled('button', {
                 padding: '$3 $6'
             },
             sm: {
-                padding: '$4 $7'
+                padding: '$4 $6'
             },
             md: {
-                padding: '$4 $8'
+                padding: '$4 $7'
             },
             lg: {
                 padding: '$5 $8'

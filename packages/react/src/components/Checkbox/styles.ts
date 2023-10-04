@@ -23,6 +23,10 @@ export const CheckboxContainer = styled(Checkbox.Root, {
     '&[data-state="checked"]': {
         border: '2px solid $hambre300',
         backgroundColor: '$hambre300'
+    },
+
+    '&:disabled': {
+        cursor: 'not-allowed'
     }
 })
 
@@ -55,5 +59,5 @@ export const CheckboxIndicator = styled(Checkbox.Indicator, {
 
     '&[data-state="unchecked"]': {
         animation: `${slideOut} 200ms ease-out`
-    }
+    },
 })
