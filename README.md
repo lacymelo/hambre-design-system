@@ -127,6 +127,11 @@
 ```
  - [X] npm i @radix-ui/react-toast
 
+ ```bash
+# 🛠️ Biblioteca para utilizar o switch em packages/react
+```
+ - [X] npm i @radix-ui/react-switch
+
 ## :man_student: Autores
 
 ---

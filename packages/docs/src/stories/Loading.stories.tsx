@@ -5,8 +5,7 @@ export default {
     title: 'Effect/Loading',
     component: Loading,
     args: {
-        size: 'md',
-        variant: 'yellow'
+
     },
     argTypes: {
         size: {
@@ -15,12 +14,6 @@ export default {
                 type: 'inline-radio'
             }
         },
-        variant: {
-            options: ['gray', 'yellow', 'red', 'blue', 'green', 'orange'],
-            control: {
-                type: 'inline-radio'
-            }
-        }
     }
 } as Meta<LoadingProps>
 

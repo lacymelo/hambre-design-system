@@ -13,7 +13,7 @@ const spin = keyframes({
 export const Loading = styled('div', {
     width: '20px',
     height: '20px',
-    borderRadius: '100%',
+    borderRadius: '$full',
     border: '4px solid $gray400',
     borderTop: '4px solid $hambre300',
     animation: `${spin} 1s linear infinite`,
