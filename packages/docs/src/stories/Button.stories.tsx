@@ -13,7 +13,7 @@ export default {
     },
     argTypes: {
         variant: {
-            options: ['primary', 'secondary', 'tertiary'],
+            options: ['primary', 'secondary', 'tertiary', 'danger', 'success', 'info', 'warning'],
             control: {
                 type: 'inline-radio'
             }

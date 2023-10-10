@@ -3,7 +3,7 @@ import { ComponentProps, ElementType } from "react"
 
 export const Heading = styled('h2', {
     fontFamily: '$default',
-    lineHeight: '$shorter',
+    lineHeight: '$base',
     margin: 0,
     color: '$gray600',
 

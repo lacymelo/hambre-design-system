@@ -14,6 +14,12 @@ export default {
                 type: 'inline-radio'
             }
         },
+        variant: {
+            options: ["gray", "yellow", "red", "blue", "green", "orange"],
+            control: {
+                type: 'inline-radio'
+            }
+        }
     }
 } as Meta<LoadingProps>
 

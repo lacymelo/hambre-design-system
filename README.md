@@ -132,6 +132,16 @@
 ```
  - [X] npm i @radix-ui/react-switch
 
+ ```bash
+# 🛠️ Biblioteca para utilizar o radio em packages/react
+```
+ - [X] npm i @radix-ui/react-radio-group
+
+ ```bash
+# 🛠️ Biblioteca para utilizar AlertDialog em packages/react
+```
+ - [X] npm i @radix-ui/react-alert-dialog
+
 ## :man_student: Autores
 
 ---
