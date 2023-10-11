@@ -75,3 +75,5 @@ export const Loading = styled('div', {
 export interface LoadingProps extends ComponentProps<typeof Loading> {
     as?: ElementType
 }
+
+Loading.displayName = 'Loading'

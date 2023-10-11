@@ -142,6 +142,11 @@
 ```
  - [X] npm i @radix-ui/react-alert-dialog
 
+ ```bash
+# 🛠️ Biblioteca para utilizar select em packages/react
+```
+ - [X] npm i @radix-ui/react-select
+
 ## :man_student: Autores
 
 ---
