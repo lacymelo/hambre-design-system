@@ -9,11 +9,9 @@ export default {
         currentHeight: '100%',
 
         children: (
-            <>
-                <Text>
-                    Item
-                </Text>
-            </>
+            <Text>
+                Item
+            </Text>
         )
     },
     decorators: [

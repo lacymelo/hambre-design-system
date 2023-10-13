@@ -45,7 +45,8 @@ export const Content = styled(Select.Content, {
     overflow: 'hidden',
     backgroundColor: '$white',
     borderRadius: '$sm',
-    boxShadow: '0px 10px 38px -10px rgba(22, 23, 24, 0.35), 0px 10px 20px -15px rgba(22, 23, 24, 0.2)'
+    boxShadow: '0px 10px 38px -10px rgba(22, 23, 24, 0.35), 0px 10px 20px -15px rgba(22, 23, 24, 0.2)',
+    zIndex: 1,
 })
 
 export const ScrollUpButton = styled(Select.ScrollDownButton, {
@@ -79,7 +80,6 @@ export const Item = styled(Select.Item, {
     },
 
     '&[data-state="checked"]': {
-        backgroundColor: '$yellow50',
         color: '$hambre600'
     },
 

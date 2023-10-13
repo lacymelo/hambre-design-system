@@ -6,9 +6,7 @@ export default {
     component: Text,
     args: {
         children: (
-            <>
-                <p>Typography</p>
-            </>
+            <p>Typography</p>
         )
     },
     argTypes: {

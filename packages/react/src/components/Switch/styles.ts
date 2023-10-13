@@ -17,6 +17,15 @@ export const SwitchContainer = styled(Switch.Root, {
 
     '&[data-state="checked"]': {
         backgroundColor: '$hambre300',
+
+        variants: {
+            variant: {
+                green: {},
+                yellow: {},
+                red: {},
+                blue: {}
+            }
+        }
     },
 
     '&:disabled': {
@@ -27,8 +36,8 @@ export const SwitchContainer = styled(Switch.Root, {
 export const Thumb = styled(Switch.Thumb, {
     display: 'block',
     backgroundColor: '$white',
-    width: '21px',
-    height: '21px',
+    width: '$5',
+    height: '$5',
     borderRadius: '$full',
     boxShadow: '0px 2px 2px $gray100',
     transition: 'transform 150ms',

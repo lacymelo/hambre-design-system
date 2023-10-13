@@ -1,6 +1,6 @@
 import { Toast, ToastProps } from "@hambre-ui/react"
 import { Meta, StoryObj } from "@storybook/react"
-import { Check, CheckCircle, CircleHalfTilt, Fire, WarningCircle } from "phosphor-react"
+import { Article, Check, CheckCircle, CircleHalfTilt, Fire, Lightbulb, WarningCircle } from "phosphor-react"
 
 export default {
     title: 'Message/Toast',
@@ -34,7 +34,7 @@ export const Warning: StoryObj<ToastProps> = {
 }
 export const Info: StoryObj<ToastProps> = {
     args: {
-        icon: <WarningCircle />,
+        icon: <Lightbulb />,
         message: 'User profile incomplete!',
         variant: 'info'
     },
@@ -72,7 +72,7 @@ export const WarningOpen: StoryObj<ToastProps> = {
 export const InfoOpen: StoryObj<ToastProps> = {
     args: {
         message: 'User profile incomplete!',
-        icon: <WarningCircle />,
+        icon: <Lightbulb />,
         variant: 'info',
         open: true,
         duration: 0

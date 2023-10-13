@@ -5,7 +5,7 @@ export default {
     title: 'Form/Switch',
     component: Switch,
     args: {
-        variant: 'yellow',
+
     },
     argTypes: {
         disabled: {

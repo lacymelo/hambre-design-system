@@ -1,6 +1,6 @@
 import { MessageIcon, MessageIconProps } from "@hambre-ui/react";
 import { Meta, StoryObj } from "@storybook/react";
-import { Check, Fire, WarningCircle } from "phosphor-react";
+import { Check, Fire, Lightbulb, WarningCircle } from "phosphor-react";
 
 export default {
     title: 'Message/Message Icon',
@@ -41,7 +41,7 @@ export const Warning: StoryObj<MessageIconProps> = {
 
 export const Info: StoryObj<MessageIconProps> = {
     args: {
-        icon: <WarningCircle />,
+        icon: <Lightbulb />,
         variant: 'blue'
     }
 }

@@ -11,6 +11,12 @@ export default {
                 type: 'boolean'
             }
         },
+        variant: {
+            options: ['green', 'yellow', 'blue', 'red'],
+            control: {
+                type: 'inline-radio'
+            }
+        }
     },
     decorators: [
         (Story) => {
@@ -36,7 +42,11 @@ export default {
     ]
 } as Meta<CheckboxProps>
 
-export const Primary: StoryObj<CheckboxProps> = {}
+export const Primary: StoryObj<CheckboxProps> = {
+    args: {
+
+    }
+}
 
 export const Disabled: StoryObj<CheckboxProps> = {
     args: {
