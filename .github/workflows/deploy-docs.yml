@@ -12,13 +12,13 @@ jobs:
     # passos
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
         # setup do node
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
 
         # para instalar somente a s dependências de produção
       - run: npm ci
