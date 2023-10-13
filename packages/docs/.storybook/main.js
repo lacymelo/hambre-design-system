@@ -15,5 +15,14 @@ module.exports = {
   },
   "features": {
     "storyStoreV7": true
+  },
+  viteFinal: (config, {
+    configType
+  }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/hambre-design-system'
+    }
+
+    return config
   }
 }
