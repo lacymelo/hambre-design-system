@@ -9,21 +9,21 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    
-    steps: # passos
+    # passos
+    steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
         # setup do node
       - name: Setup Node.js
-      - uses: actions/setup-node@v3
-        with: 
-          node-version: 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
 
-      # para instalar somente a s dependências de produção
+        # para instalar somente a s dependências de produção
       - run: npm ci
 
-      # executa a build que foi configurada no turbo
+        # executa a build que foi configurada no turbo
       - run: npm run build
 
       - name: Deploy storybook
