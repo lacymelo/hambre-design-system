@@ -147,6 +147,11 @@
 ```
  - [X] npm i @radix-ui/react-select
 
+ ```bash
+# 🛠️ Biblioteca para faze o deploy em packages/docs
+```
+ - [X] npm i @storybook/storybook-deployer --save-dev
+
 ## :man_student: Autores
 
 ---
