@@ -5,7 +5,7 @@ export const Box = styled('div', {
     display: 'grid',
     gridTemplateColumns: '1fr',
     position: 'relative',
-    padding: '$4',
+    padding: '$6',
     borderRadius: '$md',
     backgroundColor: '$white',
     border: '1px solid $gray100'

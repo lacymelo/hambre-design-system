@@ -75,6 +75,17 @@ export const Item = styled(Select.Item, {
     marginBottom: '$1',
     userSelect: 'none',
 
+    variants: {
+        size: {
+            sm: {
+                padding: '$2 $3',
+            },
+            md: {
+                padding: '$3 $4',
+            },
+        }
+    },
+
     '&:focus': {
         outline: 0
     },
@@ -90,6 +101,10 @@ export const Item = styled(Select.Item, {
     '&:hover': {
         backgroundColor: '$yellow50',
         color: '$hambre600'
+    },
+
+    defaultVariants: {
+        size: 'md'
     }
 })
 
