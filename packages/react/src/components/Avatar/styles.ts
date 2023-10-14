@@ -26,7 +26,7 @@ export const AvatarContainer = styled(Avatar.Root, {
     },
 
     defaultVariants: {
-        size: 'md'
+        size: 'sm'
     }
 })
 

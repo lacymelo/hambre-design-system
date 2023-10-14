@@ -14,15 +14,22 @@
 
 ---
 
-- [X] Text
-- [X] Heading
+- [X] Avatar
 - [X] Box
 - [X] Button
-- [X] TextInput
+- [X] Checkbox
+- [X] Heading
+- [X] Loading
+- [X] MessageIcon
+- [X] MultiStep
+- [X] Radio
+- [X] Select
+- [X] Switch
+- [X] Text
 - [X] TextArea
-- [ ] Checkbox
-- [X] Avatar
-- [ ] MultiStep
+- [X] TextInput
+- [X] Toast
+- [X] Transition
 
 
 ## 🔖 Configurações do Design System
@@ -151,6 +158,31 @@
 # 🛠️ Biblioteca para faze o deploy em packages/docs
 ```
  - [X] npm i @storybook/storybook-deployer --save-dev
+
+ ```bash
+# 🛠️ Biblioteca para gerenciar o versionamentos dos pacotes
+```
+ - [X] npm i @changesets/cli -D
+
+ ```bash
+# 🛠️ Comando para inicializar o changesets
+```
+ - [X] npx changeset init
+
+ ```bash
+# 🛠️ Executar esse comando para validar no npm, qualquer atualização no repositório
+```
+ - [X] npm run changeset
+
+ ```bash
+# 🛠️ Executar o comando para mudar a versão no caso de uma alteração
+```
+ - [X] npm run version-packages
+
+ ```bash
+# 🛠️ Executar o comando para fazer o deploy no npm
+```
+ - [X] npm run release
 
 ## :man_student: Autores
 
