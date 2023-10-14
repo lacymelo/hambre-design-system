@@ -72,4 +72,6 @@ export const colors = {
   hambre300: '#FFCD42',
   hambre400: '#FFC014',
   hambre600: '#DBA100',
+
+  test: '#DBA101'
 }
