@@ -13,7 +13,13 @@ export default {
             control: {
                 type: 'text'
             }
-        }
+        },
+        size: {
+            options: ['sm', 'md', 'lg'],
+            control: {
+                type: 'inline-radio'
+            }
+        },
     }
 } as Meta<AvatarProps>
 

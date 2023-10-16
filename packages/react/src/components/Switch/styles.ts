@@ -4,7 +4,7 @@ import { styled } from "../../styles";
 export const SwitchContainer = styled(Switch.Root, {
     all: 'unset',
     width: '50px',
-    height: 25,
+    height: '$6',
     borderRadius: '$full',
     position: 'relative',
     backgroundColor: '$gray100',

@@ -4,11 +4,10 @@ import { styled } from "../../styles"
 export const AvatarContainer = styled(Avatar.Root, {
     borderRadius: '$full',
     display: 'flex',
-    width: '$12',
-    height: '$12',
     overflow: 'hidden',
 
     variants: {
+        variant: {},
         size: {
             sm: {
                 width: '$6',
@@ -26,7 +25,7 @@ export const AvatarContainer = styled(Avatar.Root, {
     },
 
     defaultVariants: {
-        size: 'sm'
+        size: 'md'
     }
 })
 

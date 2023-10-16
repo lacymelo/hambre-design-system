@@ -11,12 +11,6 @@ export default {
                 type: 'boolean'
             }
         },
-        variant: {
-            options: ['green', 'yellow', 'blue', 'red'],
-            control: {
-                type: 'inline-radio'
-            }
-        }
     },
     decorators: [
         (Story) => {

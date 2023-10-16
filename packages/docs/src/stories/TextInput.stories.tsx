@@ -1,6 +1,6 @@
 import { Box, Text, TextInput, TextInputProps } from '@hambre-ui/react'
 import { Meta, StoryObj } from '@storybook/react'
-import { ArrowRight, MagnifyingGlass } from 'phosphor-react'
+import { ArrowRight, Lock, MagnifyingGlass } from 'phosphor-react'
 
 export default {
     title: 'Form/Text Input',
@@ -29,7 +29,8 @@ export default {
 
 export const Primary: StoryObj<TextInputProps> = {
     args: {
-        placeholder: 'type your name'
+        placeholder: 'type your name',
+        type: 'text'
     }
 }
 
@@ -60,6 +61,16 @@ export const Icon: StoryObj<TextInputProps> = {
 
         //     </>
         // )
+    }
+}
+
+export const Password: StoryObj<TextInputProps> = {
+    args: {
+        placeholder: 'password',
+        icon: (
+            <Lock />
+        ),
+        type: 'password'
     }
 }
 

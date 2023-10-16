@@ -6,9 +6,7 @@ export default {
     component: Box,
     args: {
         children: (
-            <>
-                <Text>Box</Text>
-            </>
+            <Text>Box</Text>
         )
     },
     argTypes: {

@@ -27,7 +27,7 @@ export default {
 
 export const Primary: StoryObj<MultiStepProps> = {
     args: {
-        placeholder: 'type your name'
+        currentStep: 1,
     }
 }
 

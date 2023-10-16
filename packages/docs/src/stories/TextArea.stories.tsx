@@ -10,7 +10,7 @@ export default {
         (Story) => {
             return (
                 <Box
-                    as="label"
+                    as="form"
                     css={{
                         display: 'flex',
                         flexDirection: 'column',
@@ -28,13 +28,15 @@ export default {
 
 export const Primary: StoryObj<TextAreaProps> = {
     args: {
-        placeholder: 'add any observations...'
+        placeholder: 'add any observations...',
+        typeof: 'text'
     }
 }
 
 export const Disabled: StoryObj<TextAreaProps> = {
     args: {
         placeholder: 'type your description',
-        disabled: true
+        disabled: true,
+        typeof: 'text'
     }
 }

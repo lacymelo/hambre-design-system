@@ -1,5 +1,11 @@
 # @hambre-ui/react
 
+## 3.0.1
+
+### Patch Changes
+
+- Add modify argsTypes in the components
+
 ## 3.0.0
 
 ### Major Changes
