@@ -1,5 +1,11 @@
 # @hambre-ui/react
 
+## 4.0.0
+
+### Major Changes
+
+- Add config tokens
+
 ## 3.0.1
 
 ### Patch Changes
