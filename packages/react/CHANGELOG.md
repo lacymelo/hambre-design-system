@@ -1,5 +1,11 @@
 # @hambre-ui/react
 
+## 4.1.0
+
+### Minor Changes
+
+- add readme in the tokens and react
+
 ## 4.0.0
 
 ### Major Changes

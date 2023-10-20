@@ -188,5 +188,5 @@
 
 ---
 
-Feito com ♥ by Laciene Melo e Gleicyane Freitas:wave: [#lacymelo](https://github.com/lacymelo)
+Feito com ♥ by Laciene Melo :wave: [#lacymelo](https://github.com/lacymelo)
 
