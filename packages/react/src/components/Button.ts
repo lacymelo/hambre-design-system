@@ -4,7 +4,7 @@ import { styled } from "../styles";
 export const Button = styled('button', {
     all: 'unset', // limpa todos os estilos pré-configurados
     borderRadius: '$sm',
-    fontSize: '$sm',
+    fontSize: '$md',
     fontWeight: '$medium',
     fontFamily: '$default',
     textAlign: 'center',
@@ -20,7 +20,7 @@ export const Button = styled('button', {
     },
 
     '&:focus': {
-        boxShadow: '0 0 0 2px $colors$gray100'
+        boxShadow: '0 0 0 2px $colors$hambre300'
     },
 
     variants: {
