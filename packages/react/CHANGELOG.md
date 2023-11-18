@@ -1,5 +1,11 @@
 # @hambre-ui/react
 
+## 5.0.0
+
+### Major Changes
+
+- update button
+
 ## 4.2.0
 
 ### Minor Changes

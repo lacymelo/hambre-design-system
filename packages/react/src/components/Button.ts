@@ -150,10 +150,10 @@ export const Button = styled('button', {
 
         size: {
             xs: {
-                padding: '$3 $6'
+                padding: '$2 $6'
             },
             sm: {
-                padding: '$4 $6'
+                padding: '$3 $6'
             },
             md: {
                 padding: '$4 $7'
