@@ -15,5 +15,4 @@ export * from './components/AlertDialog'
 export * from './components/MessageIcon'
 export * from './components/Select'
 export * from './components/Radio'
-
 export * from './styles'
