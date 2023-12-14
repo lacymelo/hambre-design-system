@@ -1,5 +1,11 @@
 # @hambre-ui/tokens
 
+## 4.0.0
+
+### Major Changes
+
+- 8357b4f: ajustes em styles
+
 ## 3.0.0
 
 ### Major Changes

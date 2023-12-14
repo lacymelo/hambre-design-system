@@ -1,5 +1,11 @@
 # @hambre-ui/react
 
+## 8.0.0
+
+### Major Changes
+
+- 8357b4f: ajustes em styles
+
 ## 7.0.0
 
 ### Major Changes
